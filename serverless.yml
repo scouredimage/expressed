@@ -2,6 +2,10 @@ tenant: scouredimage
 app: demoapp
 service: expressed
 
+custom:
+  enterprise:
+    collectApiGatewayLogs: false
+
 provider:
   name: aws
   runtime: nodejs10.x
