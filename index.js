@@ -4,7 +4,7 @@ const app = express()
 
 app.get('/hello/:name', function (req, res) {
   const { params: { name } } = req
-  res.status(200).send(`Hello ${name}!`)
+  res.status(200).set('X-SLS-Content-Type', 'text/plain').send(`Hello ${name}!`)
 })
 
 app.get('/admin/forbidden', function (req, res) {
