@@ -7,10 +7,11 @@
     "test": "exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sandesh Devaraju <scouredimage@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "serverless-http": "^2.3.2"
-  }
+  },
+  "repository": "git@github.com:scouredimage/expressed.git"
 }
